@@ -1,0 +1,308 @@
+[
+    {
+        "code": "E11.9",
+        "description": "Type 2 diabetes mellitus without complications",
+        "guideline": "Use E11.9 when no specific complications (retinopathy, neuropathy, etc.) are documented. Ensure glycemic control status is noted in the record.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "E11.65",
+        "description": "Type 2 diabetes mellitus with hyperglycemia",
+        "guideline": "Assign when provider documents uncontrolled or poorly controlled T2DM with hyperglycemia. Do not use 'uncontrolled' as a standalone — specificity (hyperglycemia vs. hypoglycemia) is required.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "E11.40",
+        "description": "Type 2 diabetes mellitus with diabetic neuropathy, unspecified",
+        "guideline": "Use when neuropathy is linked to T2DM but the type is not specified. Query provider for peripheral, autonomic, or mononeuropathy for a more precise code.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "I10",
+        "description": "Essential (primary) hypertension",
+        "guideline": "Assign for high blood pressure not attributed to a secondary cause. If heart failure or CKD coexists, check for combination codes I11, I12, or I13.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "I25.10",
+        "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+        "guideline": "Use for CAD without angina. If angina is present, use I25.110 (unstable) or I25.119 (unspecified). Document whether vessels are native or grafted.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "I50.9",
+        "description": "Heart failure, unspecified",
+        "guideline": "Avoid this code when possible — query for systolic vs. diastolic, acute vs. chronic. Specific HF codes (I50.20–I50.43) impact DRG assignment significantly.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "I48.91",
+        "description": "Unspecified atrial fibrillation",
+        "guideline": "Use when AFib type is not documented. Query for paroxysmal (I48.0), persistent (I48.11/I48.19), long-standing persistent (I48.20), or chronic (I48.21).",
+        "type": "ICD-10"
+    },
+    {
+        "code": "J45.909",
+        "description": "Unspecified asthma, uncomplicated",
+        "guideline": "Assign when no status asthmaticus or exacerbation is noted. Document severity (mild intermittent, moderate persistent, etc.) for a more specific code.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "J44.1",
+        "description": "Chronic obstructive pulmonary disease with (acute) exacerbation",
+        "guideline": "Assign during a documented COPD exacerbation. If acute bronchitis is also present, use J44.0. Do not assign both J44.0 and J44.1 for the same episode.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "N18.3",
+        "description": "Chronic kidney disease, stage 3 (moderate)",
+        "guideline": "Stage 3 CKD is split into 3a (N18.31) and 3b (N18.32) — use the subcode when GFR staging is documented. Always code the underlying cause (e.g., diabetes, hypertension) as an additional code.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "M54.5",
+        "description": "Low back pain",
+        "guideline": "Use for nonspecific lumbago. If sciatica or radiculopathy is present, use M54.4 or M54.3. For herniated disc, use M51.x codes instead.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "M79.3",
+        "description": "Panniculitis, unspecified",
+        "guideline": "Use for inflammation of subcutaneous fat not otherwise specified. If the site is specified, use laterality and site subcodes. Query for lupus panniculitis or other specific causes.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "M17.11",
+        "description": "Primary osteoarthritis, right knee",
+        "guideline": "Always specify laterality for joint codes. Use M17.12 for left knee, M17.0 for bilateral. Differentiate primary from post-traumatic osteoarthritis (M17.3x).",
+        "type": "ICD-10"
+    },
+    {
+        "code": "F32.9",
+        "description": "Major depressive disorder, single episode, unspecified",
+        "guideline": "Assign when severity is not documented. Encourage providers to specify mild (F32.0), moderate (F32.1), or severe without psychosis (F32.2) for accurate coding.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "F41.1",
+        "description": "Generalized anxiety disorder",
+        "guideline": "Assign when chronic, excessive worry is documented across multiple domains. Do not confuse with F41.0 (panic disorder) or F40.x (phobia-related disorders).",
+        "type": "ICD-10"
+    },
+    {
+        "code": "F10.20",
+        "description": "Alcohol use disorder, moderate, uncomplicated",
+        "guideline": "AUD severity is mild (F10.10), moderate (F10.20), or severe (F10.20 with 4th/5th characters). Document withdrawal status — F10.239 includes withdrawal with unspecified complications.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "Z23",
+        "description": "Encounter for immunization",
+        "guideline": "Use as the primary diagnosis for a vaccination-only visit. Always pair with a procedure code for the specific vaccine administered (e.g., 90688 for flu).",
+        "type": "ICD-10"
+    },
+    {
+        "code": "Z00.00",
+        "description": "Encounter for general adult medical examination without abnormal findings",
+        "guideline": "Use for annual wellness exams with no abnormal findings. If findings are present, use Z00.01. Cannot be billed same day as a sick visit without modifier -25.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "Z51.81",
+        "description": "Encounter for therapeutic drug monitoring",
+        "guideline": "Assign when the sole purpose of the visit is drug level monitoring (e.g., warfarin, lithium, digoxin). Pair with the drug code and the condition being treated.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "Z79.01",
+        "description": "Long-term (current) use of anticoagulants",
+        "guideline": "Always add as a secondary code when anticoagulation therapy is ongoing. Affects care planning, surgical risk documentation, and HCC capture.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "E78.5",
+        "description": "Hyperlipidemia, unspecified",
+        "guideline": "Assign when elevated cholesterol or dyslipidemia is documented without type specification. Use E78.00 for pure hypercholesterolemia or E78.1 for pure hypertriglyceridemia if specified.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "E66.9",
+        "description": "Obesity, unspecified",
+        "guideline": "Use when BMI is ≥30 but a specific obesity type is not documented. Pair with a BMI code (Z68.x) to support risk stratification and HCC coding.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "N39.0",
+        "description": "Urinary tract infection, site not specified",
+        "guideline": "Use when the site is not documented. Pair with B96.x to identify the causative organism if culture results are available.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "J06.9",
+        "description": "Acute upper respiratory infection, unspecified",
+        "guideline": "For generic URI/common cold. Avoid if sinusitis, pharyngitis, or laryngitis is specifically documented — more precise codes exist for each.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "K21.0",
+        "description": "Gastro-esophageal reflux disease with esophagitis",
+        "guideline": "Assign when GERD with documented esophageal inflammation or erosion is present. Use K21.9 if no esophagitis is noted. Barrett's esophagus requires K22.70–K22.719.",
+        "type": "ICD-10"
+    },
+    {
+        "code": "99213",
+        "description": "Office visit, established patient, 20–29 minutes",
+        "guideline": "Low to moderate complexity MDM. Requires at least 2 of 3 key components: expanded problem-focused history, exam, and low-complexity MDM.",
+        "type": "CPT"
+    },
+    {
+        "code": "99214",
+        "description": "Office visit, established patient, 30–39 minutes",
+        "guideline": "Moderate complexity MDM. Used when detailed history, physical exam, and moderate-complexity MDM are all documented.",
+        "type": "CPT"
+    },
+    {
+        "code": "99215",
+        "description": "Office visit, established patient, 40–54 minutes",
+        "guideline": "High complexity MDM. Reserved for patients with multiple chronic conditions, severe exacerbations, or significant new problems requiring extensive workup.",
+        "type": "CPT"
+    },
+    {
+        "code": "99203",
+        "description": "Office visit, new patient, 30–44 minutes",
+        "guideline": "Low complexity MDM for new patients. All 3 key components must be met for new patient visits (history, exam, MDM), unlike established patient visits.",
+        "type": "CPT"
+    },
+    {
+        "code": "99204",
+        "description": "Office visit, new patient, 45–59 minutes",
+        "guideline": "Moderate complexity MDM for new patients. Document all 3 key components. Time-based billing requires documentation of total face-to-face time.",
+        "type": "CPT"
+    },
+    {
+        "code": "99395",
+        "description": "Preventive visit, established patient, 18–39 years",
+        "guideline": "Annual wellness exam. Cannot be billed same day as a problem-focused E&M without modifier -25 and separate documentation of a distinct, significant service.",
+        "type": "CPT"
+    },
+    {
+        "code": "99396",
+        "description": "Preventive visit, established patient, 40–64 years",
+        "guideline": "Same rules as 99395. Code selection is age-driven, not complexity-driven. Document all preventive services rendered (counseling, screenings, immunizations).",
+        "type": "CPT"
+    },
+    {
+        "code": "93000",
+        "description": "Electrocardiogram (ECG), routine, with interpretation and report",
+        "guideline": "Bill when the provider personally interprets and documents findings. Use 93005 for tracing only (technical component) or 93010 for interpretation only (professional component).",
+        "type": "CPT"
+    },
+    {
+        "code": "71046",
+        "description": "Chest X-ray, 2 views",
+        "guideline": "Report when both PA and lateral views are obtained. Use 71045 for a single view. The interpreting provider's documented findings are required for billing.",
+        "type": "CPT"
+    },
+    {
+        "code": "80053",
+        "description": "Comprehensive metabolic panel (CMP)",
+        "guideline": "Includes 14 tests (glucose, BUN, creatinine, electrolytes, liver enzymes, etc.). Do not unbundle individual tests when a panel is ordered. Must be ordered by a treating provider.",
+        "type": "CPT"
+    },
+    {
+        "code": "85025",
+        "description": "Complete blood count (CBC) with differential",
+        "guideline": "Includes automated differential. Use 85027 for CBC without differential. Document clinical indication to support medical necessity for payer review.",
+        "type": "CPT"
+    },
+    {
+        "code": "90837",
+        "description": "Psychotherapy, 60 minutes",
+        "guideline": "For individual psychotherapy sessions of 53+ minutes. Use 90832 (30 min) or 90834 (45 min) for shorter sessions. Can be billed with E&M using add-on code 90833/90836.",
+        "type": "CPT"
+    },
+    {
+        "code": "96372",
+        "description": "Therapeutic, prophylactic, or diagnostic injection, subcutaneous or intramuscular",
+        "guideline": "Use for IM or SQ injections (e.g., B12, ketorolac). Bill separately from the office visit E&M. Pair with the drug J-code for the substance administered.",
+        "type": "CPT"
+    },
+    {
+        "code": "36415",
+        "description": "Collection of venous blood by venipuncture",
+        "guideline": "Report for routine blood draws. Most payers reimburse only when performed in a non-laboratory office setting. Not separately billable in many facility settings.",
+        "type": "CPT"
+    },
+    {
+        "code": "20610",
+        "description": "Aspiration and/or injection of major joint or bursa",
+        "guideline": "Use for knee, shoulder, hip joint injections/aspirations. Use 20611 when ultrasound guidance is performed. Document joint, substance injected, and laterality.",
+        "type": "CPT"
+    },
+    {
+        "code": "G0439",
+        "description": "Annual wellness visit, subsequent (Medicare)",
+        "guideline": "Medicare-specific code for AWV after the initial visit (G0438). Cannot be billed within 12 months of a previous AWV. Includes health risk assessment and personalized prevention plan.",
+        "type": "HCPCS"
+    },
+    {
+        "code": "G0438",
+        "description": "Annual wellness visit, initial (Medicare)",
+        "guideline": "First AWV under Medicare — patient must have had Part B for at least 12 months. Distinct from the Welcome to Medicare visit (G0402). Documents baseline health status.",
+        "type": "HCPCS"
+    },
+    {
+        "code": "G0008",
+        "description": "Administration of influenza virus vaccine",
+        "guideline": "Medicare administration code — always pair with the appropriate vaccine product code (e.g., 90688). No beneficiary cost-share applies for this preventive service.",
+        "type": "HCPCS"
+    },
+    {
+        "code": "G0009",
+        "description": "Administration of pneumococcal vaccine",
+        "guideline": "Pair with the pneumococcal vaccine product code (90670 for PCV15/PCV20, 90732 for PPSV23). Medicare covers both doses when appropriately spaced and documented.",
+        "type": "HCPCS"
+    },
+    {
+        "code": "G2211",
+        "description": "Visit complexity inherent to evaluation and management associated with primary care",
+        "guideline": "Add-on code reportable with most E&M visit codes for primary care providers. Recognizes the complexity of longitudinal, continuous care. Cannot be used with AWV or preventive codes.",
+        "type": "HCPCS"
+    },
+    {
+        "code": "J0696",
+        "description": "Injection, ceftriaxone sodium, per 250 mg",
+        "guideline": "Report the number of units based on the dose administered (e.g., 1g = 4 units). Pair with 96372 for the injection administration. Document indication and dose in the note.",
+        "type": "HCPCS"
+    },
+    {
+        "code": "J3420",
+        "description": "Injection, vitamin B-12 cyanocobalamin, up to 1000 mcg",
+        "guideline": "One unit = up to 1000 mcg. Pair with 96372 for IM injection. Document deficiency diagnosis (E53.8) or pernicious anemia (D51.0) to support medical necessity.",
+        "type": "HCPCS"
+    },
+    {
+        "code": "470",
+        "description": "Major joint replacement or reattachment of lower extremity without MCC",
+        "guideline": "Highest-volume MS-DRG. Accurate comorbidity documentation can shift the case to DRG 469 (with MCC), significantly impacting reimbursement. Query for malnutrition, anemia, and renal status.",
+        "type": "DRG"
+    },
+    {
+        "code": "291",
+        "description": "Heart failure and shock with MCC",
+        "guideline": "Requires documented HF type (systolic vs. diastolic, acute vs. chronic) and a major complication/comorbidity (MCC). Query providers for specificity — vague 'CHF' maps to lower-weighted DRGs.",
+        "type": "DRG"
+    },
+    {
+        "code": "193",
+        "description": "Simple pneumonia and pleurisy with MCC",
+        "guideline": "Documentation of the causative organism (e.g., Streptococcus, Klebsiella) and MCC presence drives DRG assignment. Unspecified pneumonia (J18.9) may be queried for pathogen specificity.",
+        "type": "DRG"
+    },
+    {
+        "code": "392",
+        "description": "Esophagitis, gastroenteritis, and miscellaneous digestive disorders without MCC",
+        "guideline": "Often assigned for GI admissions without a clear surgical procedure. Query for Crohn's, C. diff (A04.72), or other specific diagnoses that may shift to a higher-weighted DRG.",
+        "type": "DRG"
+    }
+]
